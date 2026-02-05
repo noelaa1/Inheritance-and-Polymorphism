@@ -1,0 +1,16 @@
+class Instrument:
+    def play(self):
+        print("The instrument is playing.")
+
+
+class Guitar(Instrument):
+    pass
+
+class Guitar(Instrument):
+    def tune(self):
+        print("The guitar is being tuned.")
+
+
+guitar = Guitar()
+guitar.play()
+guitar.tune()
