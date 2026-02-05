@@ -1,0 +1,17 @@
+class Animal:
+    def __init__(self, name):
+        self.__name = name
+
+    def speak(self):
+        print("The animal makes a sound.")
+
+
+class Dog(Animal):
+    def speak(self):
+        print("The dog barks.")
+
+
+animals = [Animal("Generic"), Dog("Buddy")]
+
+for animal in animals:
+    animal.speak()
