@@ -1,0 +1,14 @@
+class GameCharacter:
+    pass
+
+
+class Hero(GameCharacter):
+    pass
+
+
+class Wizard(Hero):
+    pass
+
+
+wizard = Wizard()
+print(isinstance(wizard, Hero))  # Shows Wizard inherits from Hero
